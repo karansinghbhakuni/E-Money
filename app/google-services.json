@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "372127811580",
+    "project_id": "e-money-6dce8",
+    "storage_bucket": "e-money-6dce8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372127811580:android:61a1a4800e201259e6d479",
+        "android_client_info": {
+          "package_name": "com.dev.e_money"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372127811580-mmj85q1u0clempbptmeu9g61qlepsjvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw185OwSNXuDyZhSUzmvWkWxTlVzc6vIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372127811580-mmj85q1u0clempbptmeu9g61qlepsjvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
