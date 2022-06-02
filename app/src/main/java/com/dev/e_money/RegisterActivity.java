@@ -120,7 +120,7 @@ public class RegisterActivity extends AppCompatActivity {
                             hashMap.put("name", name);
                             hashMap.put("phoneno",number);
                             hashMap.put("email", email);
-                            hashMap.put("image", "");
+                            hashMap.put("balance", "100");
                             FirebaseDatabase database = FirebaseDatabase.getInstance();
                             DatabaseReference reference = database.getReference("users");
                             reference.child(uid).setValue(hashMap);

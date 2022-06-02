@@ -9,6 +9,9 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.airbnb.lottie.LottieAnimationView;
+import com.dev.e_money.view.HistoryActivity;
+import com.dev.e_money.view.TransfermoneyActivity;
+import com.dev.e_money.view.UserDetails;
 
 public class DashboardActivity extends AppCompatActivity {
     TextView displayname, logoutview;
@@ -39,27 +42,21 @@ public class DashboardActivity extends AppCompatActivity {
         detailview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //  startActivity(new Intent(DashboardActivity.this, PatientDetail.class));
+                  startActivity(new Intent(DashboardActivity.this, UserDetails.class));
             }
         });
         labview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // startActivity(new Intent(DashboardActivity.this, LabRecord.class));
+                 startActivity(new Intent(DashboardActivity.this, TransfermoneyActivity.class));
             }
         });
         historyview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //  startActivity(new Intent(DashboardActivity.this, HistoryviewActivity.class));
+                  startActivity(new Intent(DashboardActivity.this, HistoryActivity.class));
             }
         });
-      /*  sensorview.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // startActivity(new Intent(DashboardActivity.this, SensorNode.class));
-            }
-        });*/
     }
 
     protected void onStart() {

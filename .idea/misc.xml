@@ -8,9 +8,13 @@
         <entry key="..\:/Users/karan/AndroidStudioProjects/EMoney/app/src/main/res/drawable/textshape.xml" value="0.24270833333333333" />
         <entry key="..\:/Users/karan/AndroidStudioProjects/EMoney/app/src/main/res/font/font.xml" value="0.1" />
         <entry key="..\:/Users/karan/AndroidStudioProjects/EMoney/app/src/main/res/layout/activity_dashboard.xml" value="0.22239583333333332" />
-        <entry key="..\:/Users/karan/AndroidStudioProjects/EMoney/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/EMoney/app/src/main/res/layout/activity_history.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/EMoney/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/karan/AndroidStudioProjects/EMoney/app/src/main/res/layout/activity_main.xml" value="0.22239583333333332" />
         <entry key="..\:/Users/karan/AndroidStudioProjects/EMoney/app/src/main/res/layout/activity_register.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/EMoney/app/src/main/res/layout/activity_transfermoney.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/EMoney/app/src/main/res/layout/activity_user_details.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/EMoney/app/src/main/res/layout/row_events.xml" value="0.2" />
       </map>
     </option>
   </component>

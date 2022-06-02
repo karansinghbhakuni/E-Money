@@ -1,0 +1,88 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".view.TransfermoneyActivity">
+<RelativeLayout
+    android:id="@+id/layout_top"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#93D9BB"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/transfermoney" />
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#93D9BB"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Transfer Money"
+        android:textStyle="bold"
+        android:textColor="#3d3d3d"
+        android:textSize="30sp"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:layout_marginTop="130dp"
+        />
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_top"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/recv_email"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textshape"
+            android:fontFamily="@font/nunitosanslight"
+            android:hint="Enter Reciever's Email id"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/recv_amount"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/textshape"
+            android:fontFamily="@font/nunitosanslight"
+            android:hint="Enter Amount"
+            android:inputType="number"
+            android:paddingLeft="10dp" />
+
+        <Button
+            android:id="@+id/recv_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/nunitosansregular"
+            android:text="Send Money"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
